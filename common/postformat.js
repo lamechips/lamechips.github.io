@@ -24,6 +24,18 @@ function format_collapsibles() {
 }
 format_collapsibles();
 
+function get_redirect_address() {
+    /* use the loaded URL to build a redirect address */
+    let _current_url = window.location.toString();
+    let _subpath = _current_url.split("github.io/");
+    console.log(_subpath)
+    let _newpath = "https://flamechips.github.io/" + (_subpath.length > 1 ? _subpath[1] : "");
+    return _newpath;
+}
+var _redirector = document.getElementById("0");
+_redirector.href = get_redirect_address();
+_redirector.innerText = _redirector.href.split("https://")[1];
+
 setTimeout( ()=>{
     window.scroll(0,window.scrollY + 1)
 }, 10 );
