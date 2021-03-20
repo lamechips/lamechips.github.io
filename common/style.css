@@ -1,0 +1,179 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+    background-color:rgb(60, 60, 61);
+    color:#EEEEEE;
+}
+
+div.content {
+    max-width: 60em;
+    margin: auto;
+    min-height: calc(100vh - 16em);
+}
+
+/* Navbar */
+div.navbar {
+    position:fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    max-height: 64px;
+    background-color: #1D1D1F;
+    width: 100%;
+    margin: 0em;
+    padding: 0em;
+    z-index: 10;
+}
+
+div.navbar div.wrapper {
+    padding-left: calc(100vw - 100%);
+    margin: auto;
+    width: 70em;
+    
+}
+
+div.navbar img{
+    margin: 0;
+    display:inline;
+    vertical-align:middle;
+}
+div.navbar img.twitter{
+    margin: 0;
+    display:inline;
+    vertical-align:middle;
+    float:right;
+}
+
+div.navbar .button{
+    padding: 2em;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin: 0;
+    text-align:center;
+    vertical-align:middle;
+}
+
+div.navbar .button:hover{
+    background-color: #777;
+}
+
+div.navbar a{
+    color:#EEE;
+}
+
+/* Body Content */
+img {
+    display:block;
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+p, li {
+    margin-top: 0.1em;
+    font-size: 1.0em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+li {
+    margin-bottom: 0.5em;
+    max-width: 95%;
+}
+
+strong {
+    color: #DDD;
+    background-color: rgb(50, 50, 51);
+    font-weight: 900;
+}
+
+h6 {
+    text-align:center;
+    margin: 0em;
+    margin-bottom: 0.8em;
+    font-size: 0.9em;
+    font-weight: 200;
+    color: #888;
+    font-style: italic;
+}
+
+h4 {
+    font-weight: 200;
+    margin-top: 0.0em;
+    margin-bottom: 0.4em;
+    font-size: 2em;
+    line-height: 0.9em;
+}
+
+h3 {
+    font-weight: 200;
+    margin-top: 2em;
+    margin-bottom: 0.4em;
+    font-size: 3em;
+    line-height: 0.9em;
+}
+
+h2 {
+    margin: 0.0em;
+    font-size: 0.9em;
+    font-weight: 200;
+    font-style: italic;
+}
+
+h1 {
+    margin-top: 1.5em;
+    margin-bottom: 0.3em;
+    font-weight: 200;
+}
+code {
+    color:rgb(255, 237, 137);
+    padding: 0.2em;
+    padding-top: 0.0em;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 1.0em;
+    background-color:#2d2d2d;
+}
+
+pre[class*="language"] {
+    margin: 0;
+}
+
+.ccont {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(71, 151, 255);
+}
+
+.collapsible {
+    text-align:     right;
+    background-color:#323232;
+    color:#777;
+    line-height: 1.8em;
+    margin: 0;
+    padding: 0.5em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.blocktitle {
+    margin-left: 1em;
+    color:rgb(255, 237, 137);
+    position: absolute;
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 8em;
+    font-size: 0.9em;
+    font-weight: 200;
+    color: #888;
+    font-style: italic;
+}
